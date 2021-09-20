@@ -1,55 +1,110 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    .container-fluid{
+    .container-fluid {
         /* border: 5px solid gray; */
         display: block !important;
-     }
-     .navbar-header.fixed-brand {
+    }
+
+    .navbar-header.fixed-brand {
         width: 30%;
         display: inline-flex;
     }
-    a.navbar-brand{
+
+    a.navbar-brand {
         display: none;
     }
-    .search-bar{
+
+    .search-bar {
         display: none;
     }
+
     .user-profile {
         width: 70%;
         display: inline-block;
     }
-    .sd-dn{
+
+    .sd-dn {
         display: none !important;
     }
+
     .user-profile .user-image span {
         padding-left: 10px;
         font-weight: bold;
         font-size: 12px !important;
         color: #000;
     }
+
     .container-fluid .btn {
-      
+
         margin-bottom: -10px !important;
-       
+
     }
-    div#wrapper{
+
+    div#wrapper {
         margin-top: 0px !important;
     }
 
     .heading h2 {
         font-size: 16px;
     }
+
     .donation-img img {
-       display: none;
+        display: none;
     }
+
     .year {
-     
+
         width: 56%;
-       
+
     }
 
+    /* login page */
 
+    .logo img {
+        height: 70px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
 
+    .form-box {
+        width: 74%;
+        /* margin: 85px 0px 0px 0px; */
+        margin: 0 auto;
+        margin-top: 25%;
+    }
+
+    .log-right {
+        margin-top: 10%;
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+
+    .rgt-btm {
+        font-size: 18px;
+        color: gray;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    form#login {
+        margin-top: 0px;
+    }
+
+    /* regstrasion page */
+
+    .logo img {
+        height: 70px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
 
 
 
@@ -58,101 +113,237 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    .container-fluid{
+    .container-fluid {
         /* border: 5px solid orange; */
-     }
-     .container-fluid {
+    }
+
+    .container-fluid {
         display: block !important;
     }
+
     .navbar-header.fixed-brand {
         display: inline-block;
         width: 33%;
     }
+
     .search-bar {
         position: relative;
         width: 30%;
         display: inline-block;
     }
+
     .user-profile {
         width: 40%;
         display: inline-block;
     }
-   
-    div#wrapper{
+
+    div#wrapper {
         margin-top: 0px !important;
     }
+
     /* .donation-img img {
         display: none;
      } */
+
+
+    .logo img {
+        height: 70px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .form-box {
+        width: 74%;
+        /* margin: 85px 0px 0px 0px; */
+        margin: 0 auto;
+        margin-top: 25%;
+    }
+
+    .log-right {
+        margin-top: 10%;
+        display: none;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+
+    .rgt-btm {
+        font-size: 18px;
+        color: gray;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    form#login {
+        margin-top: 0px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .col-md-9{
+    .col-md-9 {
         width: 75% !important;
     }
-    .navbar-header.fixed-brand{
+
+    .navbar-header.fixed-brand {
         width: 30%;
         display: inline-block;
     }
-    .container-fluid{
-       /* border: 5px solid red; */
+
+    .container-fluid {
+        /* border: 5px solid red; */
     }
+
     .container-fluid {
         display: block !important;
     }
+
     .navbar-header.fixed-brand {
         display: inline-block;
         width: 33%;
     }
+
     .search-bar {
         position: relative;
         width: 33%;
         display: inline-block;
     }
+
     .user-profile {
         width: 33%;
         display: inline-block;
     }
-    
-.dash-box {
-   
-    overflow: hidden;
-}
-.search-bar button {
-    float: right;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background: none;
-    border: none;
-}
-.search-bar input.form-control.mr-sm-2{
-    display: inline-block;
-    width: 100%!important;
-    vertical-align: middle;
-}
-.col-md-7 {
-    flex: 0 0 auto;
-    width: 58.33333333% !important;
-}
-.heading h2 {
-    font-size: 18px;
-}
-/* .donation-img img {
+
+    .dash-box {
+
+        overflow: hidden;
+    }
+
+    .search-bar button {
+        float: right;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+    }
+
+    .search-bar input.form-control.mr-sm-2 {
+        display: inline-block;
+        width: 100% !important;
+        vertical-align: middle;
+    }
+
+    .col-md-7 {
+        flex: 0 0 auto;
+        width: 58.33333333% !important;
+    }
+
+    .heading h2 {
+        font-size: 18px;
+    }
+
+    /* .donation-img img {
     display: none !important;
-} */
+    } */
+
+    .logo img {
+        height: 70px;
+        width: 80px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .form-box {
+        width: 74%;
+        /* margin: 85px 0px 0px 0px; */
+        margin: 0 auto;
+        margin-top: 25%;
+    }
+
+    .log-right {
+        margin-top: 10%;
+        display: block;
+    }
+
+    .login-form {
+        width: 100%;
+    }
+
+    .rgt-btm {
+        font-size: 18px;
+        color: gray;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 100%;
+    }
+
+    form#login {
+        margin-top: 0px;
+    }
+
+    .cs-button-lg {
+
+        margin-top: 0px !important;
+    }
+
+    .rgt-btm a {
+        color: black;
+        font-weight: 900;
+        margin: 20px 0px;
+        font-size: 14px;
+    }
+
+    .log-right img {
+        width: 100%;
+        margin-top: 33%;
+    }
+
+    .das-image img {
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    /* ul#menu b {
+        display: none;
+    }
+    ul#menu .dis-nn {
+        display: none;
+    }
+    .nav-stacked>li {
+        float: none;
+        display: table;
+        text-align: center;
+    } */
 
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-   
+
     /* .container-fluid{
         /* border: 5px solid green; 
      } */
+
+     /* ul#menu b {
+        display: block;
+    }
+    ul#menu .dis-nn {
+        display: block;
+    }
+    .nav-stacked>li {
+        float: none;
+        display: inline;
+        text-align: left;
     
-    
+    } */
+
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
